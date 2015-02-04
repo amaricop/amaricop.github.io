@@ -1,0 +1,207 @@
+body {
+    margin-bottom: 60px;
+    background-color: #f6f6f6;
+}
+
+.float-nav {
+        background-color: #f6f6f6;
+        border-style: none;
+        border-radius: 0;
+        border-bottom: thin ridge #777;
+}
+.navbar-brand img {
+        height: 50px;
+}
+.nav-img img {
+        max-height: 55px !important;
+}
+@media (min-width: 768px) {
+        .float-nav {
+            margin-top: 10px;
+        }
+        .navbar-brand {
+                padding-bottom: 0;
+                padding-top: 25px;
+                padding-left: 0;
+                color: black !important;
+        }
+        .navbar-brand img {
+                height: 50px;
+                position: relative;
+                bottom: 14px;
+        }
+        .sticky {
+            position: absolute;
+            bottom: 0px;
+        }
+        #onlytext {
+            margin-bottom: -26px;
+        }
+}
+
+.btn-bl, .btn-rd {
+        color: #000 !important;
+        background-color: #f6f6f6;
+        margin-right: 5px;
+        border-radius: 2px 2px 0 0;
+        padding-top: 10px !important;
+        padding-bottom: 10px !important;
+        margin-top: 20px;
+        -webkit-transition: color 0.5s; /* For Safari 3.1 to 6.0 */
+        transition: color 0.5s;
+        -webkit-transition: background-color 0.5s; /* For Safari 3.1 to 6.0 */
+        transition: background-color 0.5s;
+}
+
+.btn-rd {
+        color: #fff !important;
+        background-color: #d90000 !important;
+}
+
+.btn-bl:hover {
+        color: #fff !important;
+        background-color: #000 !important;
+}
+.btn-rd:hover {
+        background-color: #d90000 !important;
+}
+
+.icon {
+        padding: 0 !important;
+}
+.icon i {
+        margin-top: 30px;
+        margin-right: 15px;
+        color: #fcdc04 !important;
+}
+.footer {
+        height: 60px;
+}
+.msg-panel {
+        color: white;
+        background-color: rgba(217,0,0,0.8);
+  -webkit-box-shadow: 8px 10px 6px -6px #777;
+     -moz-box-shadow: 8px 10px 6px -6px #777;
+          box-shadow: 8px 10px 6px -6px #777;
+}
+.light {
+        color: inherit;
+        background-color: #eee;
+        margin-top: 20px;
+        padding: 20px;
+}
+.margin-t-15 {
+        margin-top: 15px;
+}
+.footer {
+  min-height: 60px;
+}
+.footer p {
+    color: #fff !important;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin: 0;
+}
+.footer p:first-child {
+    margin-bottom: 0px;
+    margin-top: 3px;
+}
+.inner {
+    background-color: #333;
+    min-height: 50px;
+    width: 100%;
+    padding: 0px 10px;
+} 
+.yellowband {
+    height: 10px;
+    width: 100%;
+    background-color: #fcdc04;
+}
+
+
+.contacts h3 {
+    display: inline;
+}
+.contact-form {
+    margin-bottom: 20px;
+}
+.team-img {
+    width: 140px !important;
+    height: 140px !important;
+    background-color: gray;
+    margin-bottom: 15px;
+}
+.team-txt {
+    margin-bottom: 25px;
+}
+
+/* Mobile optimizations */
+@media (max-width: 768px) {
+    .float-nav {
+            margin-top: 0px;
+            border-bottom: none;
+    }
+    .btn-bl, .btn-rd {
+            margin-top: 0px;
+    }
+    .navimg {
+            padding: 0;
+    }
+    img {
+            max-height: 250px;
+    }
+    .icon i {
+            margin: 0;
+            margin-left: 15px;
+    }
+    .msg-panel {
+      -webkit-box-shadow: 0 8px 6px -6px black;
+         -moz-box-shadow: 0 8px 6px -6px black;
+              box-shadow: 0 8px 6px -6px black;
+    }
+    .footer p {
+        margin: 0px !important;
+        padding: 0px !important;
+    }
+    .footer {
+        margin-top: 20px;
+    }
+}
+
+/* fix navbar images */
+#onlytext {
+    height: 40px;
+}
+@media (max-width: 991px) {
+    #onlytext {
+        display: none;
+    }
+    #notextimage {
+        padding-right: 10px;
+    }
+}
+@media (max-width: 768px) {
+    #onlytext {
+        display: inline-block;
+    }
+    #notextimage {
+        padding-right: 0;
+    }
+}
+
+/* make footer same size as nav */
+@media (min-width: 768px) {
+    .sticky {
+        width: 730px;
+    }
+}
+@media (min-width: 992px) {
+    .sticky {
+        width: 940px;
+    }
+}
+@media (min-width: 1200px) {
+    .sticky {
+        width: 1140px;
+    }
+}

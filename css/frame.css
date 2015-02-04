@@ -37,6 +37,12 @@ body {
         #onlytext {
             margin-bottom: -26px;
         }
+        .pad-bot-10 {
+            padding-bottom: 10px;
+        }
+        #homeimg {
+            width: 600px;
+        }
 }
 
 .btn-bl, .btn-rd {
